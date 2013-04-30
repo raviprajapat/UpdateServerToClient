@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ShoppingModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="ShoppingModelStoreContainer">
+    <EntitySet Name="CustomerCard" EntityType="ShoppingModel.Store.CustomerCard" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ItemCollection" EntityType="ShoppingModel.Store.ItemCollection" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ItemPurchased" EntityType="ShoppingModel.Store.ItemPurchased" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="CustomerCard">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CardNumber" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ItemCollection">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ItemName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="100" />
+    <Property Name="Stock" Type="int" />
+  </EntityType>
+  <EntityType Name="ItemPurchased">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ItemId" Type="int" Nullable="false" />
+    <Property Name="CustomerCardId" Type="int" />
+  </EntityType>
+</Schema>
