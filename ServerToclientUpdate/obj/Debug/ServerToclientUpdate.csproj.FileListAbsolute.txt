@@ -19,3 +19,15 @@ D:\Important File\Development\UpdateFromServer\ServerToclientUpdate\bin\Antlr3.R
 D:\Important File\Development\UpdateFromServer\ServerToclientUpdate\bin\System.Web.Optimization.dll
 D:\Important File\Development\UpdateFromServer\ServerToclientUpdate\bin\WebActivatorEx.dll
 D:\Important File\Development\UpdateFromServer\ServerToclientUpdate\bin\WebGrease.dll
+D:\Development\UpdateServerToClient\ServerToclientUpdate\bin\ServerToclientUpdate.dll
+D:\Development\UpdateServerToClient\ServerToclientUpdate\bin\ServerToclientUpdate.pdb
+D:\Development\UpdateServerToClient\ServerToclientUpdate\bin\Microsoft.Web.Infrastructure.dll
+D:\Development\UpdateServerToClient\ServerToclientUpdate\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Development\UpdateServerToClient\ServerToclientUpdate\bin\Microsoft.AspNet.SignalR.Owin.xml
+D:\Development\UpdateServerToClient\ServerToclientUpdate\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Development\UpdateServerToClient\ServerToclientUpdate\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Development\UpdateServerToClient\ServerToclientUpdate\bin\Microsoft.Web.Infrastructure.xml
+D:\Development\UpdateServerToClient\ServerToclientUpdate\bin\Newtonsoft.Json.xml
+D:\Development\UpdateServerToClient\ServerToclientUpdate\obj\Debug\ServerToclientUpdate.csprojResolveAssemblyReference.cache
+D:\Development\UpdateServerToClient\ServerToclientUpdate\obj\Debug\ServerToclientUpdate.dll
+D:\Development\UpdateServerToClient\ServerToclientUpdate\obj\Debug\ServerToclientUpdate.pdb
